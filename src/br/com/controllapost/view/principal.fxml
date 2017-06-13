@@ -27,6 +27,6 @@
       </TableView>
       <Label layoutX="207.0" layoutY="60.0" text="TODOS ALUNOS" AnchorPane.topAnchor="60.0" />
       <Label layoutX="188.0" layoutY="400.0" text="APOSTILAS PARA PEDIR" AnchorPane.topAnchor="400.0" />
-      <TextField fx:id="txtBusca" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="394.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
+      <TextField fx:id="txtBusca" editable="false" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="394.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
    </children>
 </AnchorPane>

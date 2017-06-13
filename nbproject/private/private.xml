@@ -4,7 +4,10 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/ProjetoEscola/ControllApost/src/br/com/controllapost/controller/PrincipalController.java</file>
+            <file>file:/C:/ProjetoEscola/ControllApost/src/br/com/controllapost/model/Aluno.java</file>
+            <file>file:/C:/ProjetoEscola/ControllApost/src/br/com/controllapost/helper/ImportExcel.java</file>
             <file>file:/C:/ProjetoEscola/ControllApost/src/br/com/controllapost/view/Main.java</file>
+            <file>file:/C:/ProjetoEscola/ControllApost/src/br/com/controllapost/model/Apostila.java</file>
         </group>
     </open-files>
 </project-private>

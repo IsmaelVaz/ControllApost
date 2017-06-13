@@ -10,7 +10,7 @@ package br.com.controllapost.model;
  * @author Aluno
  */
 public class Apostila {
-    private int oid_apostila, qtdMin, qtdAtual;
+    private int oid_apostila;
     private String nome;
 
     public int getOid_apostila() {
@@ -19,22 +19,6 @@ public class Apostila {
 
     public void setOid_apostila(int oid_apostila) {
         this.oid_apostila = oid_apostila;
-    }
-
-    public int getQtdMin() {
-        return qtdMin;
-    }
-
-    public void setQtdMin(int qtdMin) {
-        this.qtdMin = qtdMin;
-    }
-
-    public int getQtdAtual() {
-        return qtdAtual;
-    }
-
-    public void setQtdAtual(int qtdAtual) {
-        this.qtdAtual = qtdAtual;
     }
 
     public String getNome() {

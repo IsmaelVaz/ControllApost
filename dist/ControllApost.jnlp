@@ -8,7 +8,8 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="ControllApost.jar" size="5661" download="eager" />
+    <jar href="ControllApost.jar" size="6796" download="eager" />
+    <jar href="lib\poi-3.15.jar" size="2579580" download="eager" />
   </resources>
   <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ControllApost" >
     <param name="requiredFXVersion" value="8.0+"/>

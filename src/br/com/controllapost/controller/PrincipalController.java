@@ -5,6 +5,7 @@
  */
 package br.com.controllapost.controller;
 
+import br.com.controllapost.helper.ImportExcel;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.fxml.*;
@@ -26,10 +27,8 @@ public class PrincipalController implements Initializable{
         btnBuscar.setOnAction(l-> BuscarPlanilha());
     }
     
-    @SuppressWarnings({ "resource" })
     public void BuscarPlanilha(){
-        FileChooser filer = new  FileChooser();
-        filer.showOpenDialog(new Stage());
+        txtBusca.setText(ImportExcel.AbrirDoc());
         
     }
 }
