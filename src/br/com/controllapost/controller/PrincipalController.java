@@ -28,7 +28,7 @@ public class PrincipalController implements Initializable{
     }
     
     public void BuscarPlanilha(){
-        txtBusca.setText(ImportExcel.AbrirDoc());
+        ImportExcel.AbrirDoc();
         
     }
 }
